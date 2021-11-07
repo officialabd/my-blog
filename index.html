@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A blog shows General information me Abd Al-muttalib Ibreighith. HAVE FUN!">
+    <title>CyberSpace</title>
+    <link rel="stylesheet" media="screen and (min-width: 480px)" href="styles/portrait.css" />
+    <link rel="stylesheet" media="screen and (max-width: 479px)" href="styles/landscape.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Andada+Pro:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header id="container">
+        <div>
+            <div id="menu">
+                <button id="menu-btn" onclick="openNav()"><img src="assets/icons/menu.png"
+                        alt="menu: image not found"></button>
+            </div>
+            <div>
+                <a href="index.html" class="logo"> CyberSpace </a>
+            </div>
+            <div id="topMenu" onclick="closeNav()">
+                <div>
+                    <div class="navigation-menu-item">
+                        <a href="#info" class="navigation-menu-item-link"> Welcome </a>
+                    </div>
+                    <div class="navigation-menu-item">
+                        <a href="#city" class="navigation-menu-item-link"> City</a>
+                    </div>
+                    <div class="navigation-menu-item">
+                        <a href="#hobbies" class="navigation-menu-item-link"> Hobbies</a>
+                    </div>
+                    <div class="navigation-menu-item">
+                        <a href="#BU" class="navigation-menu-item-link"> University </a>
+                    </div>
+                    <div class="navigation-menu-item">
+                        <a href="#weeks" class="navigation-menu-item-link"> Diary </a>
+                    </div>
+                    <div class="navigation-menu-item">
+                        <a href="#questionnaire" class="navigation-menu-item-link"> Questionnaire </a>
+                    </div>
+                    <div class="navigation-menu-item">
+                        <a href="#contact" class="navigation-menu-item-link"> Contact </a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img id="theme-switcher" src="assets/imgs/sun.png" alt="theme-switch icon: not found">
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="info" class="info">
+            <div id="textInfo">
+                <h1 class="hi"> Hi, </h1>
+                <h1 id="myName"> I'm <span>Abd Al-Muttalib</span> Ibreighith </h1>
+                <p>
+                    I'm from Palestine and I'm studying Software Engineering at Bethlehem University, and I will
+                    graduate in 2023.
+                </p>
+            </div>
+            <div id="myImageSection">
+                <img id="myImage" src="assets/imgs/lmyImage.png" data-speed="-5" alt="Personal Image: not found"
+                    class="myImage">
+            </div>
+        </div>
+        <div id="city">
+            <div>
+                <div id="cityInfo">
+                    <div>
+                        <h2 id="cityName"> I'm from <span> Beit Ummer </span> </h2>
+                        <p>
+                            My little beautiful town, it is located in the north of Hebron.
+                        </p>
+                    </div>
+                </div>
+                <div id="cityImages">
+                    <h2> Click The Image To See More </h2>
+                    <img id="cityImg" src="assets/imgs/city_01.jpeg" alt="City image: not found">
+                </div>
+            </div>
+        </div>
+        <div id="hobbies">
+            <div class="column">
+                <div>
+                    <img src="assets/imgs/hobbies/chess.jpg" alt="chess image: not found">
+                    <h2> Chess </h2>
+                </div>
+                <div>
+                    <img src="assets/imgs/hobbies/song.jpg" alt="song image: not found">
+                    <h2> Listen To Songs </h2>
+                </div>
+            </div>
+            <div class="column">
+                <div>
+                    <img src="assets/imgs/hobbies/doom.jpg" alt="game image: not found">
+                    <h2> Playing Games </h2>
+                </div>
+                <div>
+                    <img src="assets/imgs/hobbies/video_editing.png" alt="video editing image: not found">
+                    <h2> Video Editing </h2>
+                </div>
+            </div>
+            <div class="column">
+                <div>
+                    <img src="assets/imgs/hobbies/puzzles.jpg" alt="puzzles image: not found">
+                    <h2> Puzzles </h2>
+                </div>
+                <div>
+                    <img src="assets/imgs/hobbies/problem_solving.png" alt="problem solving image: not found">
+                    <h2> Problem Solving </h2>
+                </div>
+            </div>
+        </div>
+        <div id="BU">
+            <div>
+                <div id="BuInfo">
+                    <div>
+                        <h2 id="BUName"> I'm studying at <span> Bethlehem University </span> </h2>
+                        <p>
+                            One of the most beautiful University in the Palestine,
+                        </p>
+                    </div>
+                </div>
+                <div id="BuImages">
+                    <img id="BUImg" src="assets/imgs/bu.jpg" alt="University image: not found">
+                </div>
+            </div>
+        </div>
+        <div id="weeks">
+            <div id="weeks-content">
+                <div id="week-01" class="week">
+                    <div>
+                        <h2> Week 1</h2>
+                    </div>
+                    <div>
+                        <p>
+                            In week 1 I learnt how to create a bacic html file. I learnt how create table
+                            and lists and headers tags.
+                        </p>
+                    </div>
+                    <div>
+                        <a href="indecies/Lab_01/index.html" target="_blank">Go To The Lab Work</a>
+                    </div>
+                </div>
+                <div id="week-02" class="week">
+                    <div>
+                        <h2> Week 2</h2>
+                    </div>
+                    <div>
+                        <p>
+                            In week 2 I learnt how to create a bacic html file. I learnt how create table
+                            and lists and headers tags.
+                        </p>
+                    </div>
+                    <div>
+                        <a href="indecies/Lab_02/index.html" target="_blank">Go To The Lab Work</a>
+                    </div>
+                </div>
+                <div id="week-03" class="week">
+                    <div>
+                        <h2> Week 3</h2>
+                    </div>
+                    <div>
+                        <p>
+                            In week 3 I learnt how to create a bacic html file. I learnt how create table
+                            and lists and headers tags.
+                        </p>
+                    </div>
+                    <div>
+                        <a href="indecies/Lab_03/index.html" target="_blank">Go To The Lab Work</a>
+                    </div>
+                </div>
+                <div id="week-04" class="week">
+                    <div>
+                        <h2> Week 4</h2>
+                    </div>
+                    <div>
+                        <p>
+                            In week 4 I learnt how to create a bacic html file. I learnt how create table
+                            and lists and headers tags.
+                        </p>
+                    </div>
+                    <div>
+                        <a href="indecies/Lab_04/index.html" target="_blank">Go To The Lab Work</a>
+                    </div>
+                </div>
+                <div id="week-05" class="week">
+                    <div>
+                        <h2> Week 5</h2>
+                    </div>
+                    <div>
+                        <p>
+                            In week 5 I learnt how to create a bacic html file. I learnt how create table
+                            and lists and headers tags.
+                        </p>
+                    </div>
+                    <div>
+                        <a href="indecies/Lab_05/index.html" target="_blank">Go To The Lab Work</a>
+                    </div>
+                </div>
+            </div>
+            <button id="to-left" class="slider-btn" onclick="plusDivs(-1)"> <img src="assets/imgs/left.png"
+                    alt="left: not found"></button>
+            <button id="to-right" class="slider-btn" onclick="plusDivs(+1)"> <img src="assets/imgs/right.png"
+                    alt="right: not found"></button>
+        </div>
+        <div id="questionnaire">
+            <div id="qinfo">
+
+                <p> I'm providing a simple <span> Questionnaire</span>, so you can help me to improve my blog page.</p>
+                <button id="open-form-btn" class="form-btn" type="button" onclick="openForm()"> Open The Form </button>
+
+            </div>
+            <div id="qform">
+                <div>
+                    <form>
+                        <div>
+                            <div id="q1" class="form-item">
+                                <label class="form-item-question">
+                                    How do you see my blog?
+                                </label>
+                                <div>
+                                    <label class="qinput"><input type="radio" name="group-q1"> Very Bad </label>
+                                    <label class="qinput"><input type="radio" name="group-q1"> Bad </label>
+                                    <label class="qinput"><input type="radio" name="group-q1"> Normal </label>
+                                    <label class="qinput"><input type="radio" name="group-q1"> Good </label>
+                                    <label class="qinput"><input type="radio" name="group-q1"> Very Good</label>
+                                </div>
+                            </div>
+                            <div id="q2" class="form-item">
+                                <label class="form-item-question">
+                                    Are the colors comfortable?
+                                </label>
+                                <div>
+                                    <label class="qinput"><input type="radio" name="group-q2"> Very Annoying
+                                    </label>
+                                    <label class="qinput"><input type="radio" name="group-q2"> Annoying </label>
+                                    <label class="qinput"><input type="radio" name="group-q2"> I'm Not Sure </label>
+                                    <label class="qinput"><input type="radio" name="group-q2"> Kind Of Comfortable
+                                    </label>
+                                    <label class="qinput"><input type="radio" name="group-q2"> Perfect </label>
+                                </div>
+                            </div>
+                            <div id="q3" class="form-item">
+                                <label class="form-item-question">
+                                    What is the most things you liked?
+                                </label>
+                                <div>
+                                    <label class="qinput"><input type="checkbox" name="group-q3"> Welcome Section
+                                    </label>
+                                    <label class="qinput"><input type="checkbox" name="group-q3"> City Section
+                                    </label>
+                                    <label class="qinput"><input type="checkbox" name="group-q3"> University Section
+                                    </label>
+                                    <label class="qinput"><input type="checkbox" name="group-q3"> Hobbies Section
+                                    </label>
+                                    <label class="qinput"><input type="checkbox" name="group-q3"> Weekly Diary Section
+                                    </label>
+                                </div>
+                                <div>
+                                    <label class="nested"> Why? </label>
+                                    <label class="qfeild"><input type="text"></label>
+                                </div>
+                            </div>
+                            <div id="q4" class="form-item">
+                                <label class="form-item-question">
+                                    How do you find my town?
+                                </label>
+                                <div>
+                                    <label class="qinput"><textarea class="ta-input" name="group-q4" id="q4-ta"
+                                            cols="60" rows="6"></textarea></label>
+                                </div>
+                            </div>
+                            <div id="q5" class="form-item">
+                                <label class="form-item-question">
+                                    Have you been to Bethlehem University?
+                                </label>
+                                <div>
+                                    <label class="qinput"><input type="radio" name="group-q5" value="Y"
+                                            onclick="hideShowTextArea('Y')">
+                                        Yes </label>
+                                    <label class="qinput"><input type="radio" name="group-q5" value="N"
+                                            onclick="hideShowTextArea('N')">
+                                        No </label>
+                                    <label class="qinput"><input type="radio" name="group-q5" value="N"
+                                            onclick="hideShowTextArea('N')">
+                                        Prefer not to say
+                                    </label>
+                                </div>
+                                <div>
+                                    <label id="q5-l" class="nested"> Say something about it :) </label>
+                                    <label class="qfeild"><textarea class="ta-input" name="group-q5" id="q5-ta"
+                                            cols="60" rows="6"></textarea></label>
+                                </div>
+                            </div>
+                            <div id="q6" class="form-item">
+                                <label class="form-item-question">
+                                    Let's see if we have hobbies in common :)
+                                </label>
+                                <div>
+                                    <label class="qinput"><input type="checkbox" name="group-q6"> playing Games
+                                    </label>
+                                    <label class="qinput"><input type="checkbox" name="group-q6"> Listen To Songs
+                                    </label>
+                                    <label class="qinput"><input type="checkbox" name="group-q6"> Puzzles
+                                    </label>
+                                    <label class="qinput"><input type="checkbox" name="group-q6"> Chess
+                                    </label>
+                                    <label class="qinput"><input type="checkbox" name="group-q6"> Problem Solving
+                                    </label>
+                                    <label class="qinput"><input type="checkbox" name="group-q6"> Video Editing
+                                    </label>
+                                </div>
+                                <div>
+                                    <label class="nested"> Else? </label>
+                                    <label class="qfeild"><input type="text"></label>
+                                </div>
+                            </div>
+                            <div id="q7" class="form-item">
+                                <label class="form-item-question">
+                                    Say any thing :)
+                                </label>
+                                <div>
+                                    <label class="qfeild"><textarea class="ta-input" name="group-q7" id="q7-ta"
+                                            cols="60" rows="6"></textarea></label>
+                                </div>
+                            </div>
+                            <div id="inside-buttons">
+                                <button id="close-form-btn" class="form-btn" type="button" onclick="closeForm()">
+                                    Close
+                                </button>
+                                <button id="submit-form-btn" class="form-btn" type="button" onclick="submitForm()">
+                                    Submit
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer id="contact">
+        <div>
+            <div id="icons">
+                <div>
+                    <a href="https://www.linkedin.com/in/abd-al-muttalib-ibreighith-7a33b121a" target="_blank">
+                        <img src="assets/icons/linkedin-icon.png" alt="linkedin icon: not found">
+                    </a>
+                </div>
+                <div>
+                    <a href="https://github.com/officialabd" target="_blank">
+                        <img src="assets/icons/github-icon.png" alt="github icon: not found">
+                    </a>
+                </div>
+                <div>
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=officialabdib@gmail.com" target="_blank">
+                        <img src="assets/icons/gmail-icon.png" alt="gmail icon: not found">
+                    </a>
+                </div>
+            </div>
+            <div id="license">
+                <p> © 2021 CyberSpace CREATED BY ABD AL-MUTTALIB </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="src/script.js"></script>
+</body>
+
+</html>

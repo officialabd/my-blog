@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+    <title>Lab_03</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form>
+        <h3 id="headLine" class="nameq">Web Technologies Lab3</h3>
+        <div>
+            <!-- NAME -->
+            <label id="mainName" class="nameq"> What is your name? </label>
+            <br>
+            <input value="Abd Al-Muttalib" class="nameIn">
+        </div>
+        <hr>
+        <div>
+            <!-- web programming -->
+            <label id="q0" class="q0"> Please rate your experience in Web programming. </label>
+            <br>
+            <input type="radio" id="01" name="web" value="1">
+            <label for="01"> 1 </label>
+            <input type="radio" id="02" name="web" value="2">
+            <label for="02"> 2 </label>
+            <input type="radio" id="03" name="web" value="3">
+            <label for="03"> 3 </label>
+            <input type="radio" id="04" name="web" value="4">
+            <label for="04"> 4 </label>
+            <input type="radio" id="05" name="web" value="5">
+            <label for="05"> 5 </label>
+            <br>
+            <label class="info"> Disappointing Exceptional</label>
+        </div>
+        <hr>
+        <div>
+            <!-- EDU -->
+            <label class="q1"> Please rate the quality of the education that you received in the university.</label>
+            <br>
+            <input type="radio" id="011" name="edu" value="1">
+            <label for="01"> 1 </label>
+            <input type="radio" id="022" name="edu" value="2">
+            <label for="02"> 2 </label>
+            <input type="radio" id="033" name="edu" value="3">
+            <label for="03"> 3 </label>
+            <input type="radio" id="044" name="edu" value="4">
+            <label for="04"> 4 </label>
+            <input type="radio" id="055" name="edu" value="5">
+            <label for="05"> 5 </label>
+            <br>
+            <label class="info"> Disappointing Exceptional</label>
+        </div>
+        <hr>
+        <div>
+            <label class="q2"> Do you know the following…?</label>
+            <br>
+            <!-- CPP -->
+            <label class="langLb"> C++ </label>
+            <input type="radio" id="yes_cpp" name="cpp" value="yes_cpp">
+            <label for="yes_cpp" class="tf"> YES |</label>
+            <input type="radio" id="no_cpp" name="cpp" value="no_cpp">
+            <label for="no_cpp" class="tf"> NO </label>
+            <br>
+            <!-- JAVA -->
+            <label class="langLb"> Java </label>
+            <input type="radio" id="yes_java" name="java" value="yes_java">
+            <label for="yes_java" class="tf"> YES |</label>
+            <input type="radio" id="no_java" name="java" value="no_java">
+            <label for="no_java" class="tf"> NO </label>
+            <br>
+            <!-- PYTHON -->
+            <label class="langLb"> Python </label>
+            <input type="radio" id="yes_python" name="python" value="yes_python">
+            <label for="yes_python" class="tf"> YES |</label>
+            <input type="radio" id="no_python" name="python" value="no_python">
+            <label for="no_python" class="tf"> NO </label>
+        </div>
+        <hr>
+        <div>
+            <!-- SPORTS -->
+            <label class="q3"> How frequently do you play sports exercises?</label>
+            <br>
+            <input type="radio" id="sport_01" name="SPORTS" value="SPORTS">
+            <label for="sport_01" class="play_options"> 3-5 times per month </label>
+            <input type="radio" id="sport_02" name="SPORTS" value="SPORTS">
+            <label for="sport_02" class="play_options"> 1-2 times per month </label>
+            <br>
+            <input type="radio" id="sport_03" name="SPORTS" value="SPORTS">
+            <label for="sport_03" class="play_options"> Once every 2 months</label>
+            <input type="radio" id="sport_04" name="SPORTS" value="SPORTS">
+            <label for="sport_04" class="play_options"> Other </label>
+        </div>
+        <hr>
+        <div>
+            <!-- EXPLAIN -->
+            <label id="explain" class="explain"> Explain the best approaches you follow to manage your time? </label>
+            <br><br>
+            <textarea class="textarea_explain"></textarea>
+            <br>
+        </div>
+        <div>
+            <input type="checkbox" id="policy" name="policy" value="policy">
+            <label for="policy" class="policy"> I agree the terms and privay policy </label>
+            <br>
+            <input type="submit" id="submit" name="submit" value="Submit">
+        </div>
+
+    </form>
+</body>
+
+</html>

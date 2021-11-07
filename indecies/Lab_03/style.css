@@ -1,0 +1,100 @@
+h3 {
+  display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 40%;
+  height: 40%;
+  text-align: center;
+  background-color:#aec3ce;
+  border-top: 2px solid rgb(63, 95, 125);
+  border-bottom: 2px solid rgb(63, 95, 125);
+}
+
+label[class^="nameq"]{
+  font-style: italic;
+  font-size: 20px;
+  font-weight: bold;
+  color:rgb(109, 168, 223); 
+  margin-left: 1%; 
+}
+
+input[class^="nameIn"]{
+  margin-left: 1.5%; 
+  margin-top: 1%;
+}
+
+label[class^="q"]{ 
+  margin-left: 1%; 
+  color:rgb(109, 168, 223); 
+}
+
+input[name^="web"], input[name^="edu"]{
+  margin-left: 3%;  
+  border-bottom: 1px solid rgb(63, 95, 125);
+}
+
+input[name^="cpp"], input[name^="java"], input[name^="python"]{
+  margin-left: 3%;  
+  border-bottom: 1px solid rgb(63, 95, 125);
+}
+
+input[name^="SPORTS"]{ 
+  display: inline-block; 
+  margin-left: 1.5%;
+}
+
+label[class^="tf"]{
+  word-spacing: 30px; 
+}
+
+label[class^="info"]{
+  word-spacing: 300px;
+  font-size: 80%;
+}
+
+label[class^="langLb"]{
+  display: inline-block;
+  width: 40px; 
+  padding-right: 5%; 
+  margin-left: 1.5%; 
+}
+
+label[class^="explain"]{ 
+  margin-left: 1%; 
+  font-style: italic;
+  font-weight: bold;
+  color:rgb(109, 168, 223); 
+}
+
+textarea[class^="textarea_explain"]{ 
+  margin-left: 2%;   
+  width: 36%;
+  height: 100px;
+}
+
+input[name="policy"]{
+  margin-top: 2%; 
+  margin-left: 4%;
+}
+
+input[name="submit"]{
+  margin-top: 2%;
+  margin-left: 15%;
+  border-radius: 5px;
+  border-width: 1px;
+  width: 10%;
+  height: 40px;
+  background-color: unset;
+  border-color: yellowgreen;
+}
+
+hr {
+  margin-left: 0%;
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
+  width: 40%;
+  border-color: aqua;
+}
