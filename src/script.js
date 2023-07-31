@@ -19,15 +19,15 @@ function parallax(e) {
     el.style.transform = "translateX(" + -x + "px) translateY(" + -y + "px)";
 }
 
-var cityImg = document.getElementById("cityImg");
-var ciarr = ["assets/imgs/city_01.jpeg", "assets/imgs/city_02.jpeg"];
-var indexI = 0;
-cityImg.onclick = function () {
-    indexI++;
-    if (indexI == ciarr.length) indexI = 0;
-    fadeOut(cityImg);
-    cityImg.src = ciarr[indexI];
-};
+// var cityImg = document.getElementById("cityImg");
+// var ciarr = ["assets/imgs/city_01.jpeg", "assets/imgs/city_02.jpeg"];
+// var indexI = 0;
+// cityImg.onclick = function () {
+//     indexI++;
+//     if (indexI == ciarr.length) indexI = 0;
+//     fadeOut(cityImg);
+//     cityImg.src = ciarr[indexI];
+// };
 
 function fadeOut(element) {
     var op = 0.1;

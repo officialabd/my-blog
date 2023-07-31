@@ -1,0 +1,41 @@
+:root {
+    --card-background-color: #212429;
+}
+
+.switch-theme {
+    --card-background-color: #31788a71;
+}
+
+.card {
+    width: 90%;
+    /* display: flex; */
+    z-index: -1;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    margin-top: 20%;
+    margin-left: 3%;
+    padding: 2%;
+    background-color: var(--card-background-color);
+    box-shadow: 0px 0px 10px black;
+    border-radius: 20px;
+}
+
+.card .card-title {
+    margin-bottom: 20px;
+    font-family: 'Andada Pro', serif;
+    color: var(--font-color-overall);
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+}
+
+.card .card-child {
+    /* display: flex; */
+    /* width: 100%; */
+}
+
+/* .card .card-child img {
+    width: 5%;
+} */
